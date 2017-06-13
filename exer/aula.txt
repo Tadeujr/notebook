@@ -1,0 +1,26 @@
+﻿com usar "string" com char
+exemplo
+char sTMP[100];
+scanf("%s",sTMP) aspas duplas tem o zero na string 
+	(%[^/n]); pega tudo o espaço em branco mas nao o fim da linha 
+
+	gets pega a linha inteira
+
+aula 10/03
+
+abrindo arquivo
+FILE *variavel
+
+variavel = fopen("nome do arquivo","r"ou"w" ou "a");
+
+Tem como ler do aquivo usando a fscanf(variavel,"%d",&"variavel que vai receber o arquivo");
+
+
+PARA IMPRIMIR
+fprintf	
+
+nao esquecer do fclose(variavel)
+
+while (!feof(variavel com arquivo))
+
+struct OLHAR
